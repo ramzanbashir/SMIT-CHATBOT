@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="catoo">
+    <header >
+        <h1>Saylani SMIT Chatbot</h1>
+    </header>
+
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type your message here...">
+        <button onclick="sendMessage()">Send</button>
+        <div class="chat-buttons">
+            <button class="faq-btn" onclick="showFAQs()">FAQs</button>
+            <button class="suggestion-btn" onclick="showSuggestions()">Suggestions</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
