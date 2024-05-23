@@ -1,3 +1,3 @@
 # SMIT-CHATBOT
 
- danercatbot.surge.sh
+https://danercatbot.surge.sh/
